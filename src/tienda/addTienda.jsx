@@ -39,7 +39,7 @@ export function AddTienda(){
     }
 
     function add(){
-        e.preventDefault();
+        //e.preventDefault();
         createTienda(tienda).then()
         setTienda(tienda.data)
     }
