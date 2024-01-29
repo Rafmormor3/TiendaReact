@@ -41,7 +41,7 @@ export function AddTienda(){
     function add(){
         e.preventDefault();
         createTienda(tienda).then()
-        setTienda(t.data)
+        setTienda(tienda.data)
     }
 
     function edit(e){
