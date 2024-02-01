@@ -3,6 +3,7 @@ import Tiendas from "./tienda/getTiendas";
 import Layout from "./layout";
 import { AddTienda } from "./tienda/addTienda";
 import TiendaDetail from "./tienda/detalles";
+import { Register } from "./user/register";
 
 const Router = () => {
   return (
@@ -14,6 +15,7 @@ const Router = () => {
             <Route path="/detalles/:_id" element={<TiendaDetail />}></Route>
             <Route path="/addEdit" element={<AddTienda />}></Route>
             <Route path="/addEdit/:_id" element={<AddTienda />}></Route>
+            <Route path="/users" element={<Register />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
